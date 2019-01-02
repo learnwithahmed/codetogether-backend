@@ -1,0 +1,28 @@
+{
+  "name": "codetogether-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Ahmed Abdulrahman <a.kasapbashi@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.139.4",
+    "@sanity/components": "^0.139.5",
+    "@sanity/core": "^0.139.3",
+    "@sanity/default-layout": "^0.139.5",
+    "@sanity/default-login": "^0.139.0",
+    "@sanity/desk-tool": "^0.139.5",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2"
+  },
+  "devDependencies": {}
+}
